@@ -35,7 +35,7 @@
      :statute/url-provenance :official-ppa-gov-lb
      :statute/enacted-date "2021-07-19"
      :statute/last-revised-date "2023-04-19"
-     :statute/retrieved-at "2026-07-22"
+     :statute/retrieved-at "2026-07-23"
      :statute/topic #{:public-procurement :corporate-governance}}
     {:statute/id "lbn.legislative-decree-11-67-commercial-registry"
      :statute/title "Legislative Decree No. 11/67 -- special Commercial Registry provisions (register of commercial establishments and the contracts affecting them), Article 4; general Commercial Registry supervision by the judiciary is separately set out in Article 23 of the Lebanese Code of Commerce"
@@ -44,7 +44,7 @@
      :statute/law-number "Legislative Decree No. 11/67"
      :statute/url "https://www.justice.gov.lb/index.php/department-details/4/2"
      :statute/url-provenance :official-justice-gov-lb
-     :statute/retrieved-at "2026-07-22"
+     :statute/retrieved-at "2026-07-23"
      :statute/topic #{:corporate-governance :incorporation}}
     {:statute/id "lbn.labor-law-1946"
      :statute/title "Labor Law (Lebanon) -- قانون العمل"
@@ -55,7 +55,7 @@
      :statute/url-provenance :wayback-machine-mirror-of-labor-gov-lb
      :statute/enacted-date "1946-09-23"
      :statute/last-revised-date "2000-05-26"
-     :statute/retrieved-at "2026-07-22"
+     :statute/retrieved-at "2026-07-23"
      :statute/topic #{:labor}}
     {:statute/id "lbn.investment-law-360-2001"
      :statute/title "Investment Law No. 360 -- establishes the framework administered by the Investment Development Authority of Lebanon (IDAL), under the guardianship of the Presidency of the Council of Ministers"
@@ -65,7 +65,7 @@
      :statute/url "https://investinlebanon.gov.lb/en/about_us"
      :statute/url-provenance :official-investinlebanon-gov-lb
      :statute/enacted-date "2001"
-     :statute/retrieved-at "2026-07-22"
+     :statute/retrieved-at "2026-07-23"
      :statute/topic #{:foreign-investment}}]})
 
 (defn spec-basis [iso3] (get catalog iso3))
