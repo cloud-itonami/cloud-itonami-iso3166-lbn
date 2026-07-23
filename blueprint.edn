@@ -3,6 +3,7 @@
  :itonami.blueprint/iso3166 "LBN"
  :itonami.blueprint/domain :public-sector/market-entry-compliance
  :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:lebanese-sme-market-access :public-spend-transparency :anti-corruption-beneficial-ownership-disclosure]
  :itonami.blueprint/governor :market-entry-compliance-governor
  :itonami.blueprint/robotics false
  :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
