@@ -1,0 +1,44 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "lbn.law-244-2021-public-procurement"
+           :title "Public Procurement Law (Lebanon), establishing the Public Procurement Authority (PPA / هيئة الشراء العام)"
+           :jurisdiction "LBN"
+           :kind :law
+           :law-number "Law No. 244 of 19 July 2021, as amended by Law No. 309 of 19 April 2023"
+           :url "https://www.ppa.gov.lb/en/pages/details/11"
+           :url-provenance :official-ppa-gov-lb
+           :enacted-date "2021-07-19"
+           :last-revised-date "2023-04-19"
+           :retrieved-at "2026-07-23"
+           :topic [:public-procurement :corporate-governance]}
+ #:statute{:id "lbn.legislative-decree-11-67-commercial-registry"
+           :title "Legislative Decree No. 11/67 -- special Commercial Registry provisions (register of commercial establishments and the contracts affecting them), Article 4; general Commercial Registry supervision by the judiciary is separately set out in Article 23 of the Lebanese Code of Commerce"
+           :jurisdiction "LBN"
+           :kind :decree
+           :law-number "Legislative Decree No. 11/67"
+           :url "https://www.justice.gov.lb/index.php/department-details/4/2"
+           :url-provenance :official-justice-gov-lb
+           :retrieved-at "2026-07-23"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "lbn.labor-law-1946"
+           :title "Labor Law (Lebanon) -- قانون العمل"
+           :jurisdiction "LBN"
+           :kind :law
+           :law-number "Law of 23 September 1946, as last amended in this session's confirmed copy by Law No. 207 of 26 May 2000"
+           :url "http://web.archive.org/web/20250524023106/https://www.labor.gov.lb/Temp/Files/574b61dd-1233-4507-9da1-d4a3e3a6129a.pdf"
+           :url-provenance :wayback-machine-mirror-of-labor-gov-lb
+           :enacted-date "1946-09-23"
+           :last-revised-date "2000-05-26"
+           :retrieved-at "2026-07-23"
+           :topic [:labor]}
+ #:statute{:id "lbn.investment-law-360-2001"
+           :title "Investment Law No. 360 -- establishes the framework administered by the Investment Development Authority of Lebanon (IDAL), under the guardianship of the Presidency of the Council of Ministers"
+           :jurisdiction "LBN"
+           :kind :law
+           :law-number "Law No. 360 (2001)"
+           :url "https://investinlebanon.gov.lb/en/about_us"
+           :url-provenance :official-investinlebanon-gov-lb
+           :enacted-date "2001"
+           :retrieved-at "2026-07-23"
+           :topic [:foreign-investment]}]
