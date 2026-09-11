@@ -92,7 +92,7 @@ memory:
   Cloudflare "Attention Required!" bot-detection challenge page when
   fetched this session. Per this project's hard safety rules, no
   attempt was made to bypass it; the Labor Law citation in
-  `src/statute/facts.cljc` is instead sourced from an Internet
+  `src/statute/facts.cljk` is instead sourced from an Internet
   Archive Wayback Machine mirror of the Ministry's own hosted PDF
   (`Temp/Files/574b61dd-...pdf`), which was itself crawled and
   archived repeatedly through 2025 -- this is disclosed explicitly
